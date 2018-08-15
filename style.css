@@ -1,0 +1,53 @@
+.quadradofundo {
+	background-color: black;
+	width: 200px;
+	height: 450px;
+	position: absolute;
+	left: 40%;
+	top: 5.5%;
+    animation: transition 2s infinite;
+}
+.bola1 {
+	position: absolute;
+	background-color: red;
+	height: 130px;
+	width: 130px;
+	top: 8%;
+	left:42.8%;
+	border-radius: 50% 50%;
+}
+.bola2 {
+	position: absolute;
+	background-color: orange;
+	height: 130px;
+	width: 130px;
+	top: 29%;
+	left:42.8%;
+	border-radius: 50% 50%;
+}
+.bola3 {
+	position: absolute;
+	background-color: green;
+	height: 130px;
+	width: 130px;
+	top: 50.2%;
+	left:42.8%;
+	border-radius: 50% 50%;
+}
+.pé {
+	position: absolute;
+	background-color: black;
+	width: 50px;
+	height: 170px;
+	right: 650px;
+	bottom: 35px;
+	border-radius: 30%;
+}
+/*@keyframes transition {*/
+  from {
+    background-color: blue;
+  }
+  to {
+    background-color: #7CFC00;
+  }
+}
